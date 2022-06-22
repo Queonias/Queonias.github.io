@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya', serif;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    background-color: #771111;
+    border-bottom: 2px solid #fff;
+}
+
+header a {
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* main article {
+    height: 300vh;
+} */
+
+main article .bemVindo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(#190604,#040619 );
+}
+
+main article .bemVindo h1{
+ color: #fff;
+ font-size: 40px;
+ margin-top: 60px;
+ margin-bottom: 30px;
+}
+
+main article .bemVindo img {
+    /* border-radius: 3% 30% 3% 30%; */
+    border-radius: 50%;
+    border: 5px solid #292929;
+    margin-bottom: 30px;
+}
+
+main article .bemVindo h2{
+    color: #b11;
+    margin-bottom: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+main article .sobreMim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(#8C0404,#590303,#400308,#190604 );
+}
+
+main article .sobreMim h1{
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: #dbd4d4;
+    text-shadow: rgb(29, 28, 28) 0px 10px 20px;
+    /* background-color: aqua; */
+}
+
+main article .sobreMim p {
+    max-width: 70%;
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #dbd4d4;
+    line-height: 40px;
+    font-weight: 600;
+    text-shadow: rgb(0, 0, 0) 0px 10px 20px;
+    
+}
+
+main article .sobreMim .container-skills {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 50px;
+    height: 40%;
+    
+}
+main article .sobreMim .container-skills .hard-skills{
+    border-right: 2px solid #fff;
+}
+main article .sobreMim .container-skills .hard-skills {
+height: 230px;
+}
+
+main article .sobreMim .container-skills h2,
+main article .sobreMim .container-skills p {
+    font-size: 30px;
+    color: #dbd4d4;
+    font-weight: 500;
+    text-shadow: rgb(0, 0, 0) 20px 10px 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+main article .sobreMim .container-skills h2{
+    font-weight: 800;
+    width: 200px;
+}
+
+
+/* main article .projetos {
+    height: 100vh;
+    background-color: #040619;
+} */
+
+footer {
+    height: 30vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+}
+
+footer div a {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+}
